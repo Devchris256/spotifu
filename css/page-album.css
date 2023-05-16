@@ -1,0 +1,15 @@
+@import './album-dates.css';
+@import './search-data.css';
+@import './data-table.css';
+@import './album-uno.css';
+@import './album-details.css';
+
+.pageAlbum {
+  padding-inline: 2rem;
+  padding-block-end: 2rem;
+}
+
+.pageAlbum-block {
+  display: flex;
+  flex-direction: column;
+}

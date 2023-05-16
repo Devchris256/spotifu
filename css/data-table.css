@@ -1,0 +1,19 @@
+.dataTable {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dataTable-table {
+
+}
+
+.dataTable-tableTop {
+  padding-inline-start: 5.5rem;
+}
+
+.dataTable-container {
+
+}
+
+

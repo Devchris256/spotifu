@@ -1,0 +1,32 @@
+.navigation {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.navigation-button {
+  inline-size: 1.875rem;
+  aspect-ratio: 1/1;
+  padding: 0;
+  background: var(--gray60);
+  color: var(--gray10);
+  font-size: 1.125rem;
+  border-radius: 50%;
+  border: none;
+}
+
+.navigation .icon-arrowLeft {
+  position: relative;
+  inset-block-start: 2px;
+  inset-inline-start: -2px;
+}
+
+.navigation .icon-arrowRight {
+  position: relative;
+  inset-block-start: 2px;
+  inset-inline-start: 2px;
+}
+
+.navigation-button:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}

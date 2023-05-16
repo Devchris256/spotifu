@@ -1,0 +1,19 @@
+@import './playlist-list.css';
+@import './navigation.css';
+@import './search.css';
+@import './user.css';
+@import './sesion-closed.css';
+@import './button-spotify.css';
+@import './header.css';
+@import './sticky.css';
+
+.page {
+  padding-inline: 2rem;
+  padding-block-end: 2rem;
+}
+
+.page-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

@@ -1,0 +1,36 @@
+.nowPlay {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nowPlay-cover {
+
+}
+
+.nowPlay img {
+  inline-size: 3.5rem;
+  block-size: 3.5rem;
+  vertical-align: middle;
+}
+
+.nowPLay-details {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nowPlay-description {
+  font: var(--baseFontBold);
+}
+
+.nowPlay-description h3 {
+  margin: 0;
+  font: var(--baseFontBold);
+  color: var(--white);
+}
+
+.nowPlay-description h4 {
+  margin: 0;
+  opacity: .7;
+  font: var(--small);
+}

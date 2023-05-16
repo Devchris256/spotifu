@@ -1,0 +1,40 @@
+:root {
+  --asideinlinesize: 15rem;
+  --minblocksize: 37.5rem;
+  --mininlinesize: 48rem;
+  --bottomblocksize: 5.5rem;
+}
+
+
+.layout {
+  min-inline-size: var(--mininlinesize);
+}
+
+.layout-block {
+  display: flex;
+}
+
+.layout-aside {
+  flex-shrink: 0;
+  overflow: auto;
+  background: var(--gray60);
+  inline-size: var(--asideinlinesize);
+  min-block-size: var(--minblocksize);
+  block-size: calc(100vh - var(--bottomblocksize));
+}
+
+.layout-page {
+  overflow: auto;
+  flex-grow: 1;
+  min-block-size: var(--minblocksize);
+  block-size: calc(100vh - var(--bottomblocksize));
+}
+
+.layout-bottom {
+  flex-grow: 1;
+  block-size: var(--bottomblocksize);
+}
+
+.layout-page.is-background {
+  background: linear-gradient(181.17deg, rgba(47, 47, 47, 0) -35.3%, #171717 66.2%), url(../img/angelito-background.png) no-repeat center/cover;
+}

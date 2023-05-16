@@ -1,0 +1,25 @@
+.playerControl {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.playerControl-button {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.playerControl-playBack {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.playerControl-progressTime {
+  font: var(--small);
+}
+
+.playerControl-slider {
+  flex-grow: 1;
+}

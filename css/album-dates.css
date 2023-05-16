@@ -1,0 +1,45 @@
+.albumDates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.albumDates > * {
+  margin: 0;
+  padding: 0.625rem;
+}
+
+.albumDates-title {
+  flex-grow: 4;
+}
+
+.albumDates-artist {
+  flex-grow: 2;
+}
+
+.albumDates-album {
+  flex-grow: 2;
+}
+
+.albumDates-details {
+  flex-grow: 0.5;
+  display: flex;
+}
+
+.albumDates-calendar {
+  flex-grow: 1;
+}
+
+.albumDates-clock {
+
+}
+
+.albumDates.is-small > *{
+  font: var(--small);
+  margin: 0;
+}
+
+.albumDates.is-normal > * {
+  font: var(--baseFont);
+  color: var(--white);
+}

@@ -1,0 +1,5 @@
+.albumUno {
+  display: flex;
+  justify-content: center;
+  padding-block: 5rem 1rem;
+}

@@ -1,0 +1,23 @@
+.buttonSpotify {
+  padding-block: 0.5rem;
+  padding-inline: 2rem;
+  border-radius: 1.5rem;
+  width: fit-content;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  font: var(--baseFontBold);
+  color: var(--gray10);
+}
+
+.buttonSpotify.is-white {
+  color: var(--gray30);
+  background: var(--white);
+}
+
+.buttonSpotify.is-primary {
+  background: var(--primary);
+  color: var(--white);
+  font: var(--baseFont);
+}

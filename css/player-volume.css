@@ -1,0 +1,16 @@
+.playerVolume {
+  display: flex;
+  align-items: center;
+}
+
+.playerVolume-slider {
+  inline-size: 6rem;
+}
+
+.player-button.is-white {
+  color: var(--white);
+}
+
+.player-button.is-primary {
+  color: var(--primary);
+}
